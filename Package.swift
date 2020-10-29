@@ -8,15 +8,12 @@ let package = Package(
     products: [
         .library(
             name: "Veriff",
-            targets: ["Veriff", "WebRTC"]),
+            targets: ["Veriff"]),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(name: "Veriff",
-                      url: "https://cdn.veriff.me/ios/com/veriff/veriff-xcframework/4.0.0/veriff-xcframework-4.0.0.zip",
-                      checksum: "716881d5553306ad600fd9bef442f0428191f8dac804218bf11accfccfd40f42"),
-        .binaryTarget(name: "WebRTC",
-                      url: "https://cdn.veriff.me/ios/com/veriff/webrtc-xcframework/1.0.0/VeriffWebRTC.xcframework.zip",
-                      checksum: "c976fa0e42a5090267f029409202ca20fed100bd2c334508278461e7dcedd4f5"),
+                      url: "https://cdn.veriff.me/ios/com/veriff/veriff-xcframework/4.1.0/veriff-xcframework-4.1.0.zip",
+                      checksum: "05a7bb9848a640aaa2f4721ef6d5ae2c9b333b26ac48444cc515c00e11430e06"),
     ]
 )
