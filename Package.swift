@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "Veriff",
+    platforms: [
+        .iOS(.v9)
+    ],
     products: [
         .library(
             name: "Veriff",
@@ -13,7 +16,7 @@ let package = Package(
     dependencies: [],
     targets: [
         .binaryTarget(name: "Veriff",
-                      url: "https://cdn.veriff.me/ios/com/veriff/veriff-xcframework/4.15.0/veriff-xcframework-4.15.0.zip",
-                      checksum: "90a4cd2a21426016f456b18401aa410b0713897f3712228d220deecf78da2587"),
+                      url: "https://cdn.veriff.me/ios/com/veriff/veriff-xcframework/4.16.0/veriff-xcframework-4.16.0.zip",
+                      checksum: "16cc08269c0a6b2bd53d754d4e61c5d234d1b4791a5d215cc3607afc6bf3cfeb"),
     ]
 )
