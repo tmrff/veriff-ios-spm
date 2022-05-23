@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [],
     targets: [
         .binaryTarget(name: "Veriff",
-                      url: "https://cdn.veriff.me/ios/com/veriff/veriff-xcframework/4.35.0/veriff-xcframework-4.35.0.zip",
-                      checksum: "57b1849236aa07f7420069f5a4645671d05bdfcfbc1158571b85b992f931ecde"),
+                      url: "https://cdn.veriff.me/ios/com/veriff/veriff-xcframework/4.36.0/veriff-xcframework-4.36.0.zip",
+                      checksum: "f541f4252897d0ef98bb8ce2a4ffbb3fd65660d5fc557991ad304c0ed6e31a47"),
     ]
 )
